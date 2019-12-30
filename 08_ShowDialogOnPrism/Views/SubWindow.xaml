@@ -1,0 +1,16 @@
+﻿<Window x:Class="ShowDialogOnPrism.Views.SubWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:prism="http://prismlibrary.com/"
+        prism:ViewModelLocator.AutoWireViewModel="True"
+        xmlns:local="clr-namespace:ShowDialogOnPrism.Views"
+        mc:Ignorable="d"
+        Title="SubWindow" Height="450" Width="800" Closed="Window_Closed">
+    <Grid>
+        <ContentControl prism:RegionManager.RegionName="{Binding regionA}"></ContentControl>
+        <Button Content="A" Margin="614,383,89,0" Command="{Binding CommandA}"></Button>
+        <Button Content="B" Margin="703,383,0,0" Command="{Binding CommandB}"></Button>
+    </Grid>
+</Window>
