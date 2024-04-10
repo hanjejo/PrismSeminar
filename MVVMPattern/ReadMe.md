@@ -10,8 +10,7 @@
 INotyfiedPropertyChanged 와 ICommand가 구현하는 것이 핵심
 
 # 특징
-MVVM 패턴은 Command 패턴과 Data Binding 두 가지 패턴을 사용하여 구현
-Command 패턴과 Data Binding을 이용하여 View와 ViewModel 사이의 의존성 제거
+MVVM에서 Command와 Data Binding을 사용하여 구현, View와 ViewModel 사이의 의존성 제거
 
 # 장점
 MVVM 패턴은 View와 Model 사이의 의존성이 없음
